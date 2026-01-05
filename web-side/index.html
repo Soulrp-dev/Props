@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Coleções</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <div class="app-container">
+      <header>
+        <div class="header-left">
+          <img src="./img/logo.png" alt="Logo" class="header-logo" />
+          <h1>COLEÇÕES</h1>
+        </div>
+        <button id="close">✕</button>
+      </header>
+      <nav class="tabs">
+        <button data-tab="collections" class="active">Coleções</button>
+        <button data-tab="trade">Trocas</button>
+      </nav>
+      <section class="filters">
+        <select id="rarityFilter">
+          <option value="">Todos</option>
+        </select>
+        <input id="seriesFilter" type="text" placeholder="Série..." />
+        <input id="search" type="text" placeholder="Buscar..." />
+        <label>
+          <input type="checkbox" id="dupesOnly"> Mostrar repetidos
+        </label>
+      </section>
+      <section id="grid" class="grid"></section>
+       <footer><img src="./img/footer.png" alt="Logo" /></footer>
+    </div>
+  </div>
+
+  <div id="qtyModal" class="modal">
+    <div class="modal__box">
+      <h3 id="qtyTitle">Selecionar quantidade</h3>
+      <div class="row">
+        <input id="qtyInput" type="number" min="1" value="1" />
+        <span id="qtyMaxHint"></span>
+      </div>
+      <div class="row">
+        <button id="qtyConfirm">Confirmar</button>
+        <button id="qtyCancel">Cancelar</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
