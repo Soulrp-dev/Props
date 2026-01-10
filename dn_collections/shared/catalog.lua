@@ -1,4 +1,33 @@
 CollectionsCatalog = {
+    ["cutekizeteddy2_by_joao"] = {
+        category = "Outros",
+        desc = "",
+        prop = {
+            loop = true,
+            pos = {
+                x = -0.04,
+                y = 0.5,
+                z = -0.00
+            },
+            bone = 24817,
+            moving = true,
+            anim = {
+                flag = 49,
+                dict = "impexp_int-0",
+                name = "mp_m_waremech_01_dual-0"
+            },
+            rot = {
+                x = 180,
+                y = 88.69,
+                z = 176.23
+            },
+            model = "cutekizeteddy2_by_joao"
+        },
+        icon = "cuteteddy.png",
+        type = "collection",
+        name = "Cute Kizeteddy",
+        rarity = "Comum"
+    },
     ["Soul_menina"] = {
         category = "Outros",
         desc = "",
