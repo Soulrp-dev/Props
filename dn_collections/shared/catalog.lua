@@ -1,29 +1,28 @@
 CollectionsCatalog = {
     ["cutekizeteddy2_by_joao"] = {
         category = "Outros",
-        desc = "",
+        desc = "Urso nas Costas",
         prop = {
             loop = true,
             pos = {
                 x = 0.0,
                 y = -0.32,
-                z = 0.0
+                z = 0
             },
             bone = 24818,
             moving = true,
             anim = {
                 flag = 49,
-                dict = "",
-                name = ""
+                dict = "impexp_int-0",
+                name = "mp_m_waremech_01_dual-0"
             },
             rot = {
-                x = 180.0,
+                x = 180,
                 y = 90.0,
                 z = 0.0
             },
             model = "cutekizeteddy2_by_joao"
         },
-
         icon = "cuteteddy.png",
         type = "collection",
         name = "Cute Kizeteddy",
