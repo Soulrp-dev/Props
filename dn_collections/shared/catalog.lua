@@ -3247,4 +3247,153 @@ CollectionsCatalog = {
         name = "Sullivan",
         rarity = "Comum"
     },
+        ["jett"] = {
+        category = "Outros",
+        desc = "",
+        prop = {
+            loop = true,
+            pos = {
+                x = -0.005,
+                y = 0.46,
+                z = -0.020
+            },
+            bone = 24817,
+            moving = true,
+            anim = {
+                flag = 49,
+                dict = "impexp_int-0",
+                name = "mp_m_waremech_01_dual-0"
+            },
+            rot = {
+                x = -1.0938879671275e-12,
+                y = 89.885468316199,
+                z = 177.14946800225
+            },
+            model = "dreamsstore_jette"
+        },
+        icon = "jett.png",
+        type = "collection",
+        name = "Jett",
+        rarity = "NFT"
+    },
+
+    ["kj"] = {
+        category = "Outros",
+        desc = "",
+        prop = {
+            loop = true,
+            pos = {
+                x = -0.005,
+                y = 0.50,
+                z = -0.020
+            },
+            bone = 24817,
+            moving = true,
+            anim = {
+                flag = 49,
+                dict = "impexp_int-0",
+                name = "mp_m_waremech_01_dual-0"
+            },
+            rot = {
+                x = -1.0938879671275e-12,
+                y = 89.885468316199,
+                z = 177.14946800225
+            },
+            model = "dreamsstore_kje"
+        },
+        icon = "kj.png",
+        type = "collection",
+        name = "Kj",
+        rarity = "NFT"
+    },
+
+    ["omen"] = {
+        category = "Outros",
+        desc = "",
+        prop = {
+            loop = true,
+            pos = {
+                x = -0.005,
+                y = 0.46,
+                z = -0.020
+            },
+            bone = 24817,
+            moving = true,
+            anim = {
+                flag = 49,
+                dict = "impexp_int-0",
+                name = "mp_m_waremech_01_dual-0"
+            },
+            rot = {
+                x = -1.0938879671275e-12,
+                y = 89.885468316199,
+                z = 177.14946800225
+            },
+            model = "dreamsstore_omene"
+        },
+        icon = "omen.png",
+        type = "collection",
+        name = "Omen",
+        rarity = "NFT"
+    },
+
+    ["sage"] = {
+        category = "Outros",
+        desc = "",
+        prop = {
+            loop = true,
+            pos = {
+                x = -0.010,
+                y = 0.48,
+                z = -0.020
+            },
+            bone = 24817,
+            moving = true,
+            anim = {
+                flag = 49,
+                dict = "impexp_int-0",
+                name = "mp_m_waremech_01_dual-0"
+            },
+            rot = {
+                x = -1.0938879671275e-12,
+                y = 89.885468316199,
+                z = 177.14946800225
+            },
+            model = "dreamsstore_sagee"
+        },
+        icon = "sage.png",
+        type = "collection",
+        name = "Sage",
+        rarity = "NFT"
+    },
+
+    ["skye"] = {
+        category = "Outros",
+        desc = "",
+        prop = {
+            loop = true,
+            pos = {
+                x = -0.015,
+                y = 0.45,
+                z = -0.015
+            },
+            bone = 24817,
+            moving = true,
+            anim = {
+                flag = 49,
+                dict = "impexp_int-0",
+                name = "mp_m_waremech_01_dual-0"
+            },
+            rot = {
+                x = -1.0938879671275e-12,
+                y = 89.885468316199,
+                z = 177.14946800225
+            },
+            model = "dreamsstore_skyee"
+        },
+        icon = "skye.png",
+        type = "collection",
+        name = "SKye",
+        rarity = "NFT"
+    },
 }
