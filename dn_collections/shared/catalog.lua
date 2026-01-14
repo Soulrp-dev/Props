@@ -3247,7 +3247,7 @@ CollectionsCatalog = {
         name = "Sullivan",
         rarity = "Comum"
     },
-        ["jett"] = {
+    ["jett"] = {
         category = "Outros",
         desc = "",
         prop = {
@@ -3274,7 +3274,7 @@ CollectionsCatalog = {
         icon = "jett.png",
         type = "collection",
         name = "Jett",
-        rarity = "NFT"
+        rarity = "Épica"
     },
 
     ["kj"] = {
@@ -3304,7 +3304,7 @@ CollectionsCatalog = {
         icon = "kj.png",
         type = "collection",
         name = "Kj",
-        rarity = "NFT"
+        rarity = "Comum"
     },
 
     ["omen"] = {
@@ -3334,7 +3334,7 @@ CollectionsCatalog = {
         icon = "omen.png",
         type = "collection",
         name = "Omen",
-        rarity = "NFT"
+        rarity = "Comum"
     },
 
     ["sage"] = {
@@ -3364,7 +3364,7 @@ CollectionsCatalog = {
         icon = "sage.png",
         type = "collection",
         name = "Sage",
-        rarity = "NFT"
+        rarity = "Comum"
     },
 
     ["skye"] = {
@@ -3394,6 +3394,156 @@ CollectionsCatalog = {
         icon = "skye.png",
         type = "collection",
         name = "SKye",
+        rarity = "Comum"
+    },
+
+    ["husky"] = {
+        category = "Pets",
+        desc = "",
+        prop = {
+            loop = true,
+            pos = {
+                x = 0.057,
+                y = 0.019,
+                z = 0.099
+            },
+            bone = 18905,
+            moving = true,
+            anim = {
+                flag = 49,
+                dict = "segurandodoguinhoanim@joao",
+                name = "doguinho_clip"
+            },
+            rot = {
+                x = 108.73,
+                y = 14.53,
+                z = -176.56
+            },
+            model = "husky_by_joao"
+        },
+        icon = "husky.png",
+        type = "collection",
+        name = "Husky",
+        rarity = "NFT"
+    },
+
+    ["chowchow"] = {
+        category = "Pets",
+        desc = "",
+        prop = {
+            loop = true,
+            pos = {
+                x = 0.06,
+                y = 0.019,
+                z = 0.12
+            },
+            bone = 18905,
+            moving = true,
+            anim = {
+                flag = 49,
+                dict = "segurandodoguinhoanim@joao",
+                name = "doguinho_clip"
+            },
+            rot = {
+                x = 108.73,
+                y = 14.53,
+                z = -176.56
+            },
+            model = "chowchow_by_joao"
+        },
+        icon = "chowchow.png",
+        type = "collection",
+        name = "Chowchow",
+        rarity = "NFT"
+    },
+
+    ["sharpei"] = {
+        category = "Pets",
+        desc = "",
+        prop = {
+            loop = true,
+            pos = {
+                x = 0.06,
+                y = 0.019,
+                z = 0.12
+            },
+            bone = 18905,
+            moving = true,
+            anim = {
+                flag = 49,
+                dict = "segurandodoguinhoanim@joao",
+                name = "doguinho_clip"
+            },
+            rot = {
+                x = 108.73,
+                y = 14.53,
+                z = -176.56
+            },
+            model = "sharpei_by_joao"
+        },
+        icon = "sharpei.png",
+        type = "collection",
+        name = "Sharpei",
+        rarity = "NFT"
+    },
+
+    ["pug"] = {
+        category = "Pets",
+        desc = "",
+        prop = {
+            loop = true,
+            pos = {
+                x = 0.06,
+                y = 0.019,
+                z = 0.12
+            },
+            bone = 18905,
+            moving = true,
+            anim = {
+                flag = 49,
+                dict = "segurandodoguinhoanim@joao",
+                name = "doguinho_clip"
+            },
+            rot = {
+                x = 108.73,
+                y = 14.53,
+                z = -176.56
+            },
+            model = "pug_by_joao"
+        },
+        icon = "pug.png",
+        type = "collection",
+        name = "Pug",
+        rarity = "NFT"
+    },
+
+    ["spitz"] = {
+        category = "Pets",
+        desc = "",
+        prop = {
+            loop = true,
+            pos = {
+                x = 0.06,
+                y = 0.019,
+                z = 0.12
+            },
+            bone = 18905,
+            moving = true,
+            anim = {
+                flag = 49,
+                dict = "segurandodoguinhoanim@joao",
+                name = "doguinho_clip"
+            },
+            rot = {
+                x = 108.73,
+                y = 14.53,
+                z = -176.56
+            },
+            model = "luludapomerania_by_joao"
+        },
+        icon = "spitz.png",
+        type = "collection",
+        name = "Spitz",
         rarity = "NFT"
     },
 }
